@@ -27,3 +27,25 @@ Multisensory Alarms: Variable-frequency beeps (Short for warnings, Long for lock
 Forensic Color Coding: Log outputs are dynamically tagged (Green for Secure, Red for Tamper) for immediate situational awareness.
 
 """NOTE""" :This project is intended for educational purposes in cybersecurity defense and demonstrates the application of real-time monitoring and automated hardware-level prevention. The names of the project folder and files are generated with help of AI and also fewer code correction and basic template of the code is generated from the AI, but the logic of the codes are written.
+
+---------------------------------------------------------------------------------------------------------------------------
+ Installation & Execution
+Prerequisites
+Python 3.10 or higher installed on your system.
+
+Standard Python libraries only (no external dependencies required).
+
+Setup
+Clone the repository:
+
+bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+Prepare the Data: Ensure the data/ directory contains the target .txt files for monitoring.
+
+Execution
+Launch the System:
+
+bash
+python aegis_auto_monitor.py
+Interact: Follow the on-screen prompts. The terminal will serve as your security command center, and the dashboard will handle real-time threat alerts.
