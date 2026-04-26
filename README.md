@@ -39,8 +39,9 @@ Setup
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/username/repository-name.git
+
+cd -repository-name
 Prepare the Data: Ensure the data/ directory contains the target .txt files for monitoring.
 
 Execution
