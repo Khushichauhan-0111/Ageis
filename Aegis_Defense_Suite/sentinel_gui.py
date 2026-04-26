@@ -3,7 +3,6 @@ import os
 import sys
 from datetime import datetime
 
-# Path Bootstrapping
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
     sys.path.append(SCRIPT_DIR)
@@ -14,7 +13,6 @@ class SentinelGUI(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        # Window Config
         self.title("AEGIS SENTINEL v2.6 | DEFENSE TRACK")
         self.geometry("1100x650")
         ctk.set_appearance_mode("dark")
@@ -22,11 +20,9 @@ class SentinelGUI(ctk.CTk):
         self.engine = MonitorEngine()
         self.is_locked = False 
 
-        # Layout Configuration
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
-        # --- Sidebar Layout ---
         self.sidebar = ctk.CTkFrame(self, width=220, corner_radius=0, fg_color="#0D0D0D")
         self.sidebar.grid(row=0, column=0, sticky="nsew")
         
@@ -48,7 +44,6 @@ class SentinelGUI(ctk.CTk):
         self.exit_btn = ctk.CTkButton(self.sidebar, text="EXIT SYSTEM", fg_color="#5e1914", command=self.quit)
         self.exit_btn.pack(side="bottom", pady=20)
 
-        # --- Main Console Layout ---
         self.main_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.main_frame.grid(row=0, column=1, padx=20, pady=20, sticky="nsew")
 
@@ -62,7 +57,6 @@ class SentinelGUI(ctk.CTk):
                                   fg_color="#050505", text_color="#FFFFFF")
         self.log.pack(fill="both", expand=True, padx=10, pady=10)
 
-        # Color Tag Config (Internal Text Widget)
         self.log._textbox.tag_config("tamper", foreground="#FF4444") 
         self.log._textbox.tag_config("secure", foreground="#00FF00")
 
