@@ -1,0 +1,3 @@
+ITEM: Gold_Watch
+STOCK: 10
+PRICE: 5000

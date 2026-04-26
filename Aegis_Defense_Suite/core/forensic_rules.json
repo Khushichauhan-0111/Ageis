@@ -1,0 +1,17 @@
+{
+    "healthcare.txt": {
+        "baseline": {"DOSE": "5mg", "MEDICATION": "Insulin"},
+        "impact_level": "CRITICAL",
+        "max_attempts": 3
+    },
+    "inventory.txt": {
+        "baseline": {"PRICE": "500", "STOCK": "10"},
+        "impact_level": "MODERATE",
+        "max_attempts": 5
+    },
+    "legal.txt": {
+        "baseline": {"TIMESTAMP": "14:00:05", "EVIDENCE": "Blood_Sample"},
+        "impact_level": "HIGH",
+        "max_attempts": 2
+    }
+}

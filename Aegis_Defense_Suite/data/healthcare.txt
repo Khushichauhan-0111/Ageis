@@ -1,0 +1,3 @@
+PATIENT: John Doe
+MEDICATION: Insulin
+DOSE: 5mg
