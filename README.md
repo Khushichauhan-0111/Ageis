@@ -25,3 +25,5 @@ Heads-Up Pop-up: (v2.0 only) The dashboard automatically forces itself to the fr
 Multisensory Alarms: Variable-frequency beeps (Short for warnings, Long for lockdowns) provide laptop-friendly audio cues.
 
 Forensic Color Coding: Log outputs are dynamically tagged (Green for Secure, Red for Tamper) for immediate situational awareness.
+
+"""NOTE""" :This project is intended for educational purposes in cybersecurity defense and demonstrates the application of real-time monitoring and automated hardware-level prevention. The names of the project folder and files are generated with help of AI and also fewer code correction and basic template of the code is generated from the AI, but the logic of the codes are written.
