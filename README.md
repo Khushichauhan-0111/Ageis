@@ -26,8 +26,7 @@ Multisensory Alarms: Variable-frequency beeps (Short for warnings, Long for lock
 
 Forensic Color Coding: Log outputs are dynamically tagged (Green for Secure, Red for Tamper) for immediate situational awareness.
 
-"""NOTE""" :This project is intended for educational purposes in cybersecurity defense and demonstrates the application of real-time monitoring and automated hardware-level prevention. The names of the project folder and files are generated with help of AI and also fewer code correction and basic template of the code is generated from the AI, but the logic of the codes are written.
-
+"""NOTE""" :This project was developed for educational purposes to demonstrate advanced concepts in host-based security and automated threat detection. While I utilized AI tools for boilerplate templates and syntax optimization, the core system architecture, forensic logic, and security workflows were independently designed and implemented by me.
 ---------------------------------------------------------------------------------------------------------------------------
  Installation & Execution
 Prerequisites
